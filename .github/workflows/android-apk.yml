@@ -21,6 +21,8 @@ jobs:
 
       - name: Install EAS CLI
         run: npm install --global eas-cli
+      - name: Install Expo asset package
+        run: npx expo install expo-asset
 
       - name: Build APK
         run: eas build --platform android --profile preview --non-interactive
