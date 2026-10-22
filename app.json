@@ -22,8 +22,21 @@
         "NSMicrophoneUsageDescription": "Sesinden Şarkı, söylediğin melodiyi kaydetmek için mikrofon erişimi kullanır."
       }
     },
-    "plugins": [
-      ["expo-av", { "microphonePermission": "Sesinden Şarkı, melodini kaydetmek için mikrofon erişimi ister." }]
-    ]
-  }
-}
+    
+"plugins": [
+  [
+    "expo-av",
+    {
+      "microphonePermission": "Sesinden Şarkı, melodini kaydetmek için mikrofon erişimi ister."
+    }
+  ],
+  [
+    "expo-build-properties",
+    {
+      "android": {
+        "kotlinVersion": "1.9.25"
+      }
+    }
+  ]
+]
+
