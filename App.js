@@ -5,7 +5,7 @@ import * as FileSystem from 'expo-file-system';
 import * as Sharing from 'expo-sharing';
 import MidiWriter from 'midi-writer-js';
 
-const API_URL = 'http://YOUR_COMPUTER_IP:8000/analyze'; // README'deki adımlara göre değiştirin.
+const API_URL = 'http://192.168.1.16:8000/analyze';
 const C = { bg:'#0B1020', panel:'#151D33', purple:'#A78BFA', cyan:'#67E8F9', white:'#F8FAFC', muted:'#9CA3AF', green:'#86EFAC' };
 
 export default function App() {
