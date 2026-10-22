@@ -2,6 +2,11 @@
   "expo": {
     "name": "Sesinden Şarkı",
     "slug": "sesinden-sarki",
+"extra": {
+  "eas": {
+    "projectId": "4fda3dd9-7760-4ebf-b3a0-43326e46a53e"
+  }
+},
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
