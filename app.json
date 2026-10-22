@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Sesinden Şarkı",
+    "slug": "sesinden-sarki",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.sesindensarki.app",
+      "versionCode": 1,
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.sesindensarki.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Sesinden Şarkı, söylediğin melodiyi kaydetmek için mikrofon erişimi kullanır."
+      }
+    },
+    "plugins": [
+      ["expo-av", { "microphonePermission": "Sesinden Şarkı, melodini kaydetmek için mikrofon erişimi ister." }]
+    ]
+  }
+}
